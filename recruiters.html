@@ -1,0 +1,474 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Training & Placement, NSIT</title>
+
+<meta http-equiv="Content-Language" content="English" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="description" content="Training & Placement, NSIT" />
+<meta name="keywords" content="training, placement, NSIT, NSIT Delhi, netaji subhas institute of technology, DIT" />
+
+<link rel="stylesheet" type="text/css" href="css/template.css" />
+		<script type="text/javascript" src="js/dropdown.js"></script> 	
+<script type="text/javascript">
+
+function validate_required(field,alerttxt)
+{
+with (field)
+  {
+  if (value==null||value=="")
+    {
+    alert(alerttxt);return false;
+    }
+  else
+    {
+    return true;
+    }
+  }
+}
+function validate_form(thisform)
+{
+with (thisform)
+  {
+  if (validate_required(username,"Userame must be filled out!")==false)
+  {username.focus();return false;}
+if (validate_required(password,"Password must be filled out!")==false)
+  {password.focus();return false;} 
+    }
+}
+</script>
+
+	
+</head>
+
+<body>
+
+	<div id="page-container">
+	
+	<div id="branding">
+	
+<img src="banner/tnp2.jpg" width="100%" height="150"/>	
+</div><!-- end branding -->
+				
+		<div id="page-content" class="clearfix">
+			<h2>Welcome to the Homepage of the Training and Placement Cell, Netaji Subhas Institute of Technology.</h2>			
+			<div class="inner-box clearfix">
+				<div id="sidebar">
+				
+					<ul id='sidebar' class="main">
+						<li class="head">Main Menu</li>
+<div id="masterdiv">
+	<div class="menutitle" id="current" onclick="window.location='index.php'">Home</div>
+	<div class="menutitle" onclick="SwitchMenu('sub1')">Why @NSIT</div>
+	<span class="submenu" id="sub1">
+		<a class="sub" href="history.html">History</a>
+		 <a class="sub" href="student.html">Students</a>
+		 <a class="sub" href="faculty.html">Faculty</a>
+		 <a class="sub" href="alumni.html">Alumni</a>
+		 <a class="sub" href="R&D.html">R&D</a>
+	</span>
+
+	<div class="menutitle" onclick="SwitchMenu('sub2')">Placements</div>
+	<span class="submenu" id="sub2">
+		 <a class="sub" href="procedure.html">Procedure</a>
+		 <a class="sub" href="policy.html">Policy</a>
+		 <a class="sub" href="NSIT-Recruitment-Brochure-2010-11.pdf" target="_blank">Brochure</a>
+	</span>
+	<div style="background-color: white;" class="menutitle" onclick="window.location='recruiters.html'">Our Past Recruiters</div>	
+	
+	<div class="menutitle" onclick="SwitchMenu('sub3')">Contact Us</div>
+	<span class="submenu" id="sub3">
+		 <a class="sub" href="map.html">Map</a>
+		 <a class="sub" href="team.html">Team</a>
+	</span>
+
+</div>
+						<br/><br/>
+<li>
+<form action="verifylogin.php" onsubmit="return validate_form(this)" method="post">
+<div class="back">
+
+<h2> Company Login :</h2><br/><b>Username: </b><br/><input type="text" name="username" value = "" style='width:80%'>
+
+<b>Password: </b><br/><input type="password" name="password" value = "" style='width:80%'>
+<input name="login" type="submit" style='width:80%; cursor: pointer;' value="Login">
+<input type="hidden" name="loginID"
+value="company">
+</div>
+</form>
+</li>
+<br/><br/>						
+<li><form action="verifylogin.php" onsubmit="return validate_form(this)" method="post"><div class="back"><h2> Student Login : </h2><br/><b>Username: </b><br/><input type="text" name="username" value = "" style='width:80%'><b>Password: </b><br/><input type="password" name="password" value = "" style='width:80%'><input name="login" type="submit" style='width:80%; cursor: pointer;' value="Login"><input type="hidden" name="loginID"value="student"></div></form></li>
+</ul>
+			
+				
+				</div>
+<center>			
+<div id="form-block">
+
+<h2>Our Past Recruiters</h2><BR><BR>
+<style type="text/css">
+
+#companyscroller{
+position: relative;
+width: 120%; 
+height: 750px; 
+overflow: hidden;
+}
+
+</style>
+
+<script type="text/javascript">
+
+var delay=2000 
+var scrollspeed=1 
+var scrollpause=1 
+
+var copyspeed=scrollspeed
+var pausespeed=(scrollpause==0)? copyspeed: 0
+var actualheight=''
+
+function scroller()
+{
+if (parseInt(cross_scroller.style.top)>(actualheight*(-1))) 
+cross_scroller.style.top=parseInt(cross_scroller.style.top)-copyspeed+"px" 
+else 
+cross_scroller.style.top=parseInt(scrollerheight)+"px"
+}
+
+function initializescroller(){
+cross_scroller=document.getElementById("vscroller")
+cross_scroller.style.top=0
+scrollerheight=document.getElementById("companyscroller").offsetHeight
+actualheight=cross_scroller.offsetHeight //height of scroller content (much of which is hidden from view)
+if (window.opera || navigator.userAgent.indexOf("Netscape/7")!=-1)
+{ 
+cross_scroller.style.height=scrollerheight+"px"
+cross_scroller.style.overflow="scroll"
+return
+}
+setTimeout('lefttime=setInterval("scroller()",30)', delay)
+}
+
+if (window.addEventListener)
+window.addEventListener("load", initializescroller, false)
+else if (window.attachEvent)
+window.attachEvent("onload", initializescroller)
+else if (document.getElementById)
+window.onload=initializescroller
+
+
+</script>
+
+
+<div id="companyscroller" onMouseover="copyspeed=pausespeed" onMouseout="copyspeed=scrollspeed">
+<div id="vscroller" style="position: absolute; width: 98%;">
+
+<!--YOUR SCROLL CONTENT HERE-->
+
+
+<div class="article">
+<table cellspacing="0">
+<tr>
+<td width="30%" align="left"><a href= "http://www.ajprecisionautomation.com" target="_blank"><img src="logos/ajpa.jpg"></a></td>
+<td width="30%" align="left"><a href= "http://www.accenture.com/" target="_blank"><img src="logos/accenture.jpg"></a></td>
+<td width="30%" align="left"><a href= "http://www.adobe.com/" target="_blank"><img src="logos/adobe.jpg"></a></td>
+</tr>
+
+<tr>
+<td width="30%" align="left"><a href= "http://www.agilent.com/" target="_blank"><img src="logos/agilent.jpg"></a></td>
+<td width="30%" align="left"><a href= "http://www.agnity.com/" target="_blank"><img src="logos/agnity.jpg"></a></td>
+<td width="30%" align="left"><a href= "http://www.atfoods.com/" target="_blank"><img src="logos/agrotech.jpg"></a></td>
+</tr>
+
+<tr>
+<td width="30%" align="left"><a href= "http://india.amazon.com/" target="_blank"><img src="logos/amazon.jpg"></a></td>
+<td width="30%" align="left"><a href= "http://www.amdocs.com/absi/" target="_blank"><img src="logos/amdocs.jpg"></a></td>
+<td width="30%" align="left"><a href= "http://home.americanexpress.com/home/mt_personal.shtml" target="_blank"><img src="logos/americanexpress.jpg"></a></td>
+</tr>
+
+<tr>
+<td width="30%" align="left"><a href= "http://analineartech.com" target="_blank"><img src="logos/analinear.jpg"></a></td>
+<td width="30%" align="left"><a href= "http://www.aricent.com/index.aspx" target="_blank"><img src="logos/aricent.jpg"></a></td>
+<td width="30%" align="left"><a href= "http://www.ashokleyland.com/group_companies.jsp?name=group" target="_blank"><img src="logos/ashokleyland.jpg"></a></td>
+</tr>
+
+<tr>
+<td width="30%" align="left"><a href= "http://www.aspiringminds.in" target="_blank"><img src="logos/aspiringminds.jpg"></a></td>
+<td width="30%" align="left"><a href= "http://www.atrenta.com/" target="_blank"><img src="logos/atrenta.jpg"></a></td>
+<td width="30%" align="left"><a href= "http://www.avaya.com/" target="_blank"><img src="logos/avaya.jpg"></a></td>
+</tr>
+
+<tr>
+<td width="30%" align="left"><a href= "https://www.bakerhughesdirect.com" target="_blank"><img src="logos/bakerhughes.jpg"></a></td>
+<td width="30%" align="left"><a href= "http://www.bain.com/bcc/default.asp" target="_blank"><img src="logos/bain.jpg"></a></td>
+<td width="30%" align="left"><a href= "http://www.bechtel.com/" target="_blank"><img src="logos/bechtel.jpg"></a></td>
+</tr>
+
+<tr>
+<td width="30%" align="left"><a href= "http://www.belzabar.com" target="_blank"><img src="logos/belzabar.jpg"></a></td>
+<td width="30%" align="left"><a href= "http://www.bhel.com/" target="_blank"><img src="logos/bhel.jpg"></a></td>
+<td width="30%" align="left"><a href= "http://www.birlasoft.com/" target="_blank"><img src="logos/birlasoft.jpg"></a></td>
+</tr>
+
+<tr>
+<td width="30%" align="left"><a href= "http://www.boeing.co.in/" target="_blank"><img src="logos/boeing.jpg"></a></td>
+<td width="30%" align="left"><a href= "http://www.careerlauncher.com/" target="_blank"><img src="logos/cl.jpg"></a></td>
+<td width="30%" align="left"><a href= "http://www.ciena.com/" target="_blank"><img src="logos/ciena.jpg"></a></td>
+</tr>
+
+<tr>
+<td width="30%" align="left"><a href= "http://www.cisco.com/" target="_blank"><img src="logos/cisco.jpg"></a></td>
+<td width="30%" align="left"><a href= "http://www.cosmiccircuits.com/" target="_blank"><img src="logos/cosmic.jpg"></a></td>
+<td width="30%" align="left"><a href= "http://www.cscmediworld.com/" target="_blank"><img src="logos/csc.jpg"></a></td>
+</tr>
+
+<tr>
+<td width="30%" align="left"><a href= "http://www.deshawindia.com" target="_blank"><img src="logos/deshaw.jpg"></a></td>
+<td width="30%" align="left"><a href= "http://www.deloitte.com/" target="_blank"><img src="logos/deloitte.jpg"></a></td>
+<td width="30%" align="left"><a href= "http://www.digitalgreen.org/" target="_blank"><img src="logos/digitalgreen.jpg"></a></td>
+</tr>
+
+<tr>
+<td width="30%" align="left"><a href= "http://www.drdo.com/" target="_blank"><img src="logos/defence.jpg"></a></td>
+<td width="30%" align="left"><a href= "http://www.dunnhumby.com/in/" target="_blank"><img src="logos/dunnhumby.jpg"></a></td>
+<td width="30%" align="left"><a href= "http://www.educomp.com" target="_blank"><img src="logos/educomp.jpg"></a></td>
+</tr>
+
+<tr>
+<td width="30%" align="left"><a href= "http://engineersindia.com/" target="_blank"><img src="logos/eil.jpg"></a></td>
+<td width="30%" align="left"><a href= "http://www.embconsulting.co.uk/about/" target="_blank"><img src="logos/emb.jpg"></a></td>
+<td width="30%" align="left"><a href= "http://www.evalueserve.com/" target="_blank"><img src="logos/evalueserve.jpg"></a></td>
+</tr>
+
+<tr>
+<td width="30%" align="left"><a href= "http://www.exlservice.com/" target="_blank"><img src="logos/exl.jpg"></a></td>
+<td width="30%" align="left"><a href= "http://www.fiitjee.com/" target="_blank"><img src="logos/fiitjee.jpg"></a></td>
+<td width="30%" align="left"><a href= "http://www.fiserv.com/" target="_blank"><img src="logos/fiserv.jpg"></a></td>
+</tr>
+
+<tr>
+<td width="30%" align="left"><a href= "http://www.freescale.com/in/" target="_blank"><img src="logos/freescale.jpg"></a></td>
+<td width="30%" align="left"><a href= "http://www.futuresfirst.in/" target="_blank"><img src="logos/futurefirst.jpg"></a></td>
+<td width="30%" align="left"><a href= "http://www.gemalto.com/" target="_blank"><img src="logos/gemalto.jpg"></a></td>
+</tr>
+
+<tr>
+<td width="30%" align="left"><a href= "http://www.genband.com/" target="_blank"><img src="logos/genband.jpg"></a></td>
+<td width="30%" align="left"><a href= "http://www.globallogic.com/" target="_blank"><img src="logos/globallogic.jpg"></a></td>
+<td width="30%" align="left"><a href= "http://www.google.com/" target="_blank"><img src="logos/google.jpg"></a></td>
+</tr>
+
+<tr>
+<td width="30%" align="left"><a href= "http://www.grailresearch.com/" target="_blank"><img src="logos/gr.jpg"></a></td>
+<td width="30%" align="left"><a href= "http://www.gsconst.co.kr/english" target="_blank"><img src="logos/gs.jpg"></a></td>
+<td width="30%" align="left"><a href= "http://www.halliburton.com/" target="_blank"><img src="logos/halliburton.jpg"></a></td>
+</tr>
+
+<tr>
+<td width="30%" align="left"><a href= "http://www.hcl.in/" target="_blank"><img src="logos/hcl.jpg"></a></td>
+<td width="30%" align="left"><a href= "http://www.herohonda.com/" target="_blank"><img src="logos/herohonda.jpg"></a></td>
+<td width="30%" align="left"><a href= "http://www.hlsasia.com/" target="_blank"><img src="logos/hls.jpg"></a></td>
+</tr>
+
+<tr>
+<td width="30%" align="left"><a href= "https://www.honda.com/" target="_blank"><img src="logos/honda.jpg"></a></td>
+<td width="30%" align="left"><a href= "http://www51.honeywell.com/honeywell/" target="_blank"><img src="logos/honeywell.jpg"></a></td>
+<td width="30%" align="left"><a href= "http://www.htmedia.in/" target="_blank"><img src="logos/htmedia.jpg"></a></td>
+</tr>
+
+<tr>
+<td width="30%" align="left"><a href= "http://www.huawei.com/" target="_blank"><img src="logos/image1.jpg"></a></td>
+<td width="30%" align="left"><a href= "http://www.ibibo.com/" target="_blank"><img src="logos/ibibo.jpg"></a></td>
+<td width="30%" align="left"><a href= "http://www.ibm.com/in/en/" target="_blank"><img src="logos/ibm.jpg"></a></td>
+</tr>
+
+<tr>
+<td width="30%" align="left"><a href= "http://www.coachfederation.org/" target="_blank"><img src="logos/icf.jpg"></a></td>
+<td width="30%" align="left"><a href= "http://www.inductis.com/" target="_blank"><img src="logos/inductis.jpg"></a></td>
+<td width="30%" align="left"><a href= "http://www.indusvalleypartners.com/" target="_blank"><img src="logos/indus.jpg"></a></td>
+</tr>
+
+<tr>
+<td width="30%" align="left"><a href= "http://www.infogain.com/" target="_blank"><img src="logos/infogain.jpg"></a></td>
+<td width="30%" align="left"><a href= "http://www.informatica.com/" target="_blank"><img src="logos/informatica.jpg"></a></td>
+<td width="30%" align="left"><a href= "http://www.infosys.com/" target="_blank"><img src="logos/infosys.jpg"></a></td>
+</tr>
+
+<tr>
+<td width="30%" align="left"><a href= "http://www.iocl.com/" target="_blank"><img src="logos/indianoil.jpg"></a></td>
+<td width="30%" align="left"><a href= "http://www.ivpindia.com/" target="_blank"><img src="logos/ivp.jpg"></a></td>
+<td width="30%" align="left"><a href= "http://www.jaypeeindia.com" target="_blank"><img src="logos/jaypee.jpg"></a></td>
+</tr>
+
+<tr>
+<td width="30%" align="left"><a href= "http://www.jpmorgan.com/pages/jpmorgan" target="_blank"><img src="logos/jpmorgan.jpg"></a></td>
+<td width="30%" align="left"><a href= "http://www.in.kpmg.com/home/home.asp" target="_blank"><img src="logos/kpmg.jpg"></a></td>
+<td width="30%" align="left"><a href= "http://www.kritikalsolutions.com." target="_blank"><img src="logos/kritikal.jpg"></a></td>
+</tr>
+
+<tr>
+<td width="30%" align="left"><a href= "http://www.lakshyainstitute.com/" target="_blank"><img src="logos/lakshya.jpg"></a></td>
+<td width="30%" align="left"><a href= "http://www.libsysinc.com" target="_blank"><img src="logos/libsys.jpg"></a></td>
+<td width="30%" align="left"><a href= "http://www.techmahindra.com/index.htm" target="_blank"><img src="logos/mahindra.jpg"></a></td>
+</tr>
+
+<tr>
+<td width="30%" align="left"><a href= "http://www.makemytrip.co.in/" target="_blank"><img src="logos/makemytrip.jpg"></a></td>
+<td width="30%" align="left"><a href= "http://www.marutiudyog.com/" target="_blank"><img src="logos/maruti.jpg"></a></td>
+<td width="30%" align="left"><a href= "http://www.mckinsey.com/" target="_blank"><img src="logos/mckinsey.jpg"></a></td>
+</tr>
+
+<tr>
+<td width="30%" align="left"><a href= "http://www.pixtelmtk.com/" target="_blank"><img src="logos/m.jpg"></a></td>
+<td width="30%" align="left"><a href= "http://www.microsoft.com" target="_blank"><img src="logos/microsoft.jpg"></a></td>
+<td width="30%" align="left"><a href= "http://www.mobicules.com/" target="_blank"><img src="logos/mobicules.jpg"></a></td>
+</tr>
+
+<tr>
+<td width="30%" align="left"><a href= "http://www.mobisolv.com/" target="_blank"><img src="logos/mobisolv.jpg"></a></td>
+<td width="30%" align="left"><a href= "http://www.motorola.com/" target="_blank"><img src="logos/motorola.jpg"></a></td>
+<td width="30%" align="left"><a href= "http://www.mtree.org/about.html" target="_blank"><img src="logos/mtree.jpg"></a></td>
+</tr>
+
+
+<tr>
+<td width="30%" align="left"><a href= "http://www.mu-sigma.com" target="_blank"><img src="logos/musigma.jpg"></a></td>
+<td width="30%" align="left"><a href= "http://www.nagarro.com/" target="_blank"><img src="logos/nagarro.jpg"></a></td>
+<td width="30%" align="left"><a href= "http://www.ni.com/" target="_blank"><img src="logos/nationalinstruments.jpg"></a></td>
+</tr>
+
+<tr>
+<td width="30%" align="left"><a href= "http://www.neibearing.com/about-us.htm" target="_blank"><img src="logos/nbc.jpg"></a></td>
+<td width="30%" align="left"><a href= "http://www.nomura.com/asia/" target="_blank"><img src="logos/nomura.jpg"></a></td>
+<td width="30%" align="left"><a href= "http://www.nsysinc.com/" target="_blank"><img src="logos/sys.jpg"></a></td>
+</tr>
+
+<tr>
+<td width="30%" align="left"><a href= "http://laptop.org/en/" target="_blank"><img src="logos/image2.jpg"></a></td>
+<td width="30%" align="left"><a href= "http://one97world.com/" target="_blank"><img src="logos/one.jpg"></a></td>
+<td width="30%" align="left"><a href= "http://www.truthatonida.com/beta/products/telsub.asp?cat=9" target="_blank"><img src="logos/onida.jpg"></a></td>
+</tr>
+
+<tr>
+<td width="30%" align="left"><a href= "http://www.oracle.com/" target="_blank"><img src="logos/oracle.jpg"></a></td>
+<td width="30%" align="left"><a href= "http://www.elitmus.com/" target="_blank"><img src="logos/elitmus.jpg"></a></td>
+<td width="30%" align="left"><a href= "http://www.pb.com/" target="_blank"><img src="logos/pitneybowes.jpg"></a></td>
+</tr>
+
+<tr>
+<td width="30%" align="left"><a href= "http://www.q3tech.com/" target="_blank"><img src="logos/q3.jpg"></a></td>
+<td width="30%" align="left"><a href= "http://www.rcom.co.in/" target="_blank"><img src="logos/reliance.jpg"></a></td>
+<td width="30%" align="left"><a href= "http://www.samsungindiasoft.com/" target="_blank"><img src="logos/samsung.jpg"></a></td>
+</tr>
+
+<tr>
+<td width="30%" align="left"><a href= "http://www.sapient.com/" target="_blank"><img src="logos/sapient.jpg"></a></td>
+<td width="30%" align="left"><a href= "http://www.slb.com/" target="_blank"><img src="logos/schlumberger.jpg"></a></td>
+<td width="30%" align="left"><a href= "http://www.servigistics.com" target="_blank"><img src="logos/servigistics.jpg"></a></td>
+</tr>
+
+<tr>
+<td width="30%" align="left"><a href= "http://www.shilpicables.com/" target="_blank"><img src="logos/shilpi.jpg"></a></td>
+<td width="30%" align="left"><a href= "http://www.skec.com" target="_blank"><img src="logos/sk.jpg"></a></td>
+<td width="30%" align="left"><a href= "http://www.solidcore.com/" target="_blank"><img src="logos/solidcore.jpg"></a></td>
+</tr>
+
+<tr>
+<td width="30%" align="left"><a href= "http://www.stericsson.com/home/home.jsp" target="_blank"><img src="logos/ericsson.jpg"></a></td>
+<td width="30%" align="left"><a href= "http://www.st.com/" target="_blank"><img src="logos/st.jpg"></a></td>
+<td width="30%" align="left"><a href= "http://www.st.com/stonline/" target="_blank"><img src="logos/stm.jpg"></a></td>
+</tr>
+
+<tr>
+<td width="30%" align="left"><a href= "http://www.ttconsultants.co.in/" target="_blank"><img src="logos/talwar.jpg" width="150" height="80"></a></td>
+<td width="30%" align="left"><a href= "http://www.tavant.com/" target="_blank"><img src="logos/tavant.jpg"></a></td>
+<td width="30%" align="left"><a href= "http://www.tcil.com/" target="_blank"><img src="logos/til.jpg"></a></td>
+</tr>
+
+<tr>
+<td width="30%" align="left"><a href= "http://www.tcs.com/" target="_blank"><img src="logos/tata.jpg"></a></td>
+<td width="30%" align="left"><a href= "http://www.techmahindra.com/index.htm" target="_blank"><img src="logos/mtechmahindra.jpg"></a></td>
+<td width="30%" align="left"><a href= "http://www.technip.com/" target="_blank"><img src="logos/technip.jpg"></a></td>
+</tr>
+
+<tr>
+<td width="30%" align="left"><a href= "http://www.tejasnetworks.com/" target="_blank"><img src="logos/tejas.jpg"></a></td>
+<td width="30%" align="left"><a href= "http://www.ti.com/" target="_blank"><img src="logos/texas.jpg"></a></td>
+<td width="30%" align="left"><a href= "http://www.cypressgp.com/" target="_blank"><img src="logos/cypress.jpg"></a></td>
+</tr>
+
+<tr>
+<td width="30%" align="left"><a href= "http://www.thesmartcube.com/" target="_blank"><img src="logos/thesmartcube.jpg"></a></td>
+<td width="30%" align="left"><a href= "http://www.thermaxindia.com/v2/index.asp" target="_blank"><img src="logos/thermax.jpg"></a></td>
+<td width="30%" align="left"><a href= "http://www.towerswatson.com/ " target="_blank"><img src="logos/towers.jpg"></a></td>
+</tr>
+
+<tr>
+<td width="30%" align="left"><a href= "http://www.toyotabharat.com" target="_blank"><img src="logos/toyota.jpg"></a></td>
+<td width="30%" align="left"><a href= "http://www.trai.gov.in/" target="_blank"><img src="logos/telecom.jpg"></a></td>
+<td width="30%" align="left"><a href= "http://www.vedantaresources.com/" target="_blank"><img src="logos/vedanta.jpg"></a></td>
+</tr>
+
+<tr>
+<td width="30%" align="left"><a href= "http://www.verizonbusiness.com/" target="_blank"><img src="logos/verizon.jpg"></a></td>
+<td width="30%" align="left"><a href= "http://www.versata.com/" target="_blank"><img src="logos/versata.jpg"></a></td>
+<td width="30%" align="left"><a href= "http://www.vnl.in/" target="_blank"><img src="logos/vnl.jpg"></a></td>
+</tr>
+
+<tr>
+<td width="30%" align="left"><a href= "http://www.towerswatson.com/ " target="_blank"><img src="logos/watson.jpg"></a></td>
+<td width="30%" align="left"><a href= "http://www.winshuttle.com/" target="_blank"><img src="logos/winshuttle.jpg"></a></td>
+<td width="30%" align="left"><a href= "http://www.wipro.com/" target="_blank"><img src="logos/wipro.jpg"></a></td>
+</tr>
+
+<tr>
+<td width="30%" align="left"><a href= "http://www.wiprocorporate.com/" target="_blank"><img src="logos/wiprocorporate.jpg"></a></td>
+<td width="30%" align="left"><a href= "http://in.yahoo.com" target="_blank"><img src="logos/yahoo.jpg"></a></td>
+<td width="30%" align="left"><a href= "http://www.zsassociates.com" target="_blank"><img src="logos/zs.jpg"></a></td>
+</tr>
+
+<tr>
+<td width="30%" align="left"><a href= "http://www.zte.com.cn/cn/" target="_blank"><img src="logos/zte.jpg"></a></td>
+<td width="30%" align="left"></td>
+<td width="30%" align="left"></td>
+</tr>
+</table>
+
+
+
+
+
+<!--YOUR SCROLL CONTENT HERE-->
+
+</div>
+</div>
+
+
+
+
+</div>
+</div>
+</center>
+
+
+
+
+				
+				</div>
+				</div>
+				</div>
+				</div>
+<p style="text-align:center;font-weight:lighter; font-size:15px;font-family:Harlow Solid Italic;">
+	Designed by Abhinav Arora, Tapan Goyal, Rahul Jain & Saurabh Kushwaha
+	</p>
+							
+		</div><!-- end page-content -->
+
+		
+		
+	</div><!-- end page-container -->
+
+</body>
+
+</html>

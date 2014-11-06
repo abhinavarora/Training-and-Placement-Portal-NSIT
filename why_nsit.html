@@ -1,0 +1,133 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Training & Placement, NSIT</title>
+
+<meta http-equiv="Content-Language" content="English" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="description" content="Training & Placement, NSIT" />
+<meta name="keywords" content="training, placement, NSIT, NSIT Delhi, netaji subhas institute of technology, DIT" />
+
+<link rel="stylesheet" type="text/css" href="css/template.css" />
+		<script type="text/javascript" src="js/dropdown.js"></script> 	
+
+
+
+
+<script type="text/javascript">
+
+function validate_required(field,alerttxt)
+{
+with (field)
+  {
+  if (value==null||value=="")
+    {
+    alert(alerttxt);return false;
+    }
+  else
+    {
+    return true;
+    }
+  }
+}
+function validate_form(thisform)
+{
+with (thisform)
+  {
+  if (validate_required(username,"Userame must be filled out!")==false)
+  {username.focus();return false;}
+if (validate_required(password,"Password must be filled out!")==false)
+  {password.focus();return false;} 
+    }
+}
+</script>
+
+	
+</head>
+
+<body>
+
+	<div id="page-container">
+		<div id="branding">
+	
+<img src="banner/tnp2.jpg" width="100%" height="150"/>	
+</div><!-- end branding -->
+				
+		<div id="page-content" class="clearfix">
+			<h2>Welcome to the Homepage of the Training and Placement Cell, Netaji Subhas Institute of Technology.</h2>	
+			<div class="inner-box clearfix">
+				<div id="sidebar">
+				
+					<ul id='sidebar' class="main">
+						<li class="head">Main Menu</li>
+<div id="masterdiv">
+	<div class="menutitle" id="current" onclick="window.location='index.php'">Home</div>
+	<div class="menutitle" style="background-color: white;" onclick="SwitchMenu('sub1')">Why NSIT</div>
+	<span class="submenu" id="sub1">
+		<a class="sub" href="history.html">History</a>
+		 <a class="sub" href="student.html">Students</a>
+		 <a class="sub" href="courses.html">Courses Offered</a>
+		 <a class="sub" href="faculty.html">Faculty & Research</a>
+		 <a class="sub" href="alumni.html">Alumni</a>
+	</span>
+
+	<div class="menutitle" onclick="SwitchMenu('sub2')">Placements</div>
+	<span class="submenu" id="sub2">
+		 <a class="sub" href="procedure.html">Procedure</a>
+		 <a class="sub" href="policy.html">Policy</a>
+		 <a class="sub" href="NSIT-Recruitment-Brochure-2010-11.pdf" target="_blank">Brochure</a>
+	</span>
+	<div class="menutitle" onclick="window.location='recruiters.html'">Our Past Recruiters</div>	
+	
+	<div class="menutitle" onclick="SwitchMenu('sub3')">Contact Us</div>
+	<span class="submenu" id="sub3">
+		 <a class="sub" href="map.html">Map</a>
+		 <a class="sub" href="team.html">Team</a>
+	</span>
+
+</div>
+						<br/><br/>
+<li>
+<form action="verifylogin.php" onsubmit="return validate_form(this)" method="post">
+<div class="back">
+
+<h2> Company Login :</h2><br/><b>Username: </b><br/><input type="text" name="username" value = "" style='width:80%'>
+
+<b>Password: </b><br/><input type="password" name="password" value = "" style='width:80%'>
+<input name="login" type="submit" style='width:80%; cursor: pointer;' value="Login">
+<input type="hidden" name="loginID"
+value="company">
+</div>
+</form>
+</li>
+<br/><br/>						
+<li><form action="verifylogin.php" onsubmit="return validate_form(this)" method="post"><div class="back"><h2> Student Login : </h2><br/><b>Username: </b><br/><input type="text" name="username" value = "" style='width:80%'><b>Password: </b><br/><input type="password" name="password" value = "" style='width:80%'><input name="login" type="submit" style='width:80%; cursor: pointer;' value="Login"><input type="hidden" name="loginID"value="student"></div></form></li>
+</ul>
+			
+				
+				</div>
+<div id="form-block">
+<h2>Why NSIT</h2><BR><BR>
+<div class="article">
+<h4>
+We choose the very best and make them better. A highly competitive exam (CEE/AIEEE) ensures NSIT gets the creme de la creme. NSIT is a leader in the field of engineering. It's built on excellence - an excellent faculty to stimulate and challenge students, and excellent peer groups for students to compete and collaborate with. Our distinguished professors & visiting lecturers include the very best thought leaders in the country today. NSIT offers not just a degree; it offers an experience and a way of life. We believe in the spirit of innovation, in innovating new ideas for the future.
+<br/><br/>
+NSITians have won laurels for their alma mater in several national and international competitions. Year after year, students of this esteemed institute have availed internships & MS/MBA offers in some of the most prestigious universities across the globe. This provides them with a world class exposure and a variegated learning experience coupled with a lucrative career development opportunity.
+<br/><br/>
+
+An amalgamation of all these factors helped NSIT rank among the top 10 Tech schools of the country by the Dataquest-IDC Survey 2008, a testimony to the erudite academic standards of the Institute. The Survey placed NSIT second in placement records all over the country. The Best Institute Award (The BHARTI VIDYA BHAWAN Award) by Indian Society for Technical Association (ISTE), 2002 is another feather in our cap. 
+<br/><br/>
+Additionally, we have been enlisted in the top 100 engineering institutions all over the world by NARIC survey, UK. When you come to NSIT looking for talent, not only will you have a tough time cutting down to numbers you are looking for but also you're rest assured about the future of your firm as you have the best of the best to choose from.
+</h4>
+</div></div>
+
+				</div>	
+<p style="text-align:center;font-weight:lighter; font-size:15px;font-family:Harlow Solid Italic;">
+	Designed by Abhinav Arora, Tapan Goyal, Rahul Jain & Saurabh Kushwaha
+	</p>
+				</div><!-- end page-content -->
+	</div><!-- end page-container -->
+<br /><br />
+</body>
+
+</html>

@@ -1,0 +1,166 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Training & Placement, NSIT</title>
+
+<meta http-equiv="Content-Language" content="English" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="description" content="Training & Placement, NSIT" />
+<meta name="keywords" content="training, placement, NSIT, NSIT Delhi, netaji subhas institute of technology, DIT" />
+
+<link rel="stylesheet" type="text/css" href="css/template.css" />
+		<script type="text/javascript" src="js/dropdown.js"></script> 	
+<script type="text/javascript">
+
+function validate_required(field,alerttxt)
+{
+with (field)
+  {
+  if (value==null||value=="")
+    {
+    alert(alerttxt);return false;
+    }
+  else
+    {
+    return true;
+    }
+  }
+}
+function validate_form(thisform)
+{
+with (thisform)
+  {
+  if (validate_required(username,"Userame must be filled out!")==false)
+  {username.focus();return false;}
+if (validate_required(password,"Password must be filled out!")==false)
+  {password.focus();return false;} 
+    }
+}
+</script>
+
+	
+</head>
+
+<body>
+
+	<div id="page-container">
+	
+			<div id="branding">
+	
+<img src="banner/tnp2.jpg" width="100%" height="150"/>	
+</div><!-- end branding -->
+				
+		<div id="page-content" class="clearfix">
+			<h2>Welcome to the Homepage of the Training and Placement Cell, Netaji Subhas Institute of Technology.</h2>	
+			<div class="inner-box clearfix">
+				<div id="sidebar">
+				
+					<ul id='sidebar' class="main">
+						<li class="head">Main Menu</li>
+<div id="masterdiv">
+	<div class="menutitle" id="current" onclick="window.location='index.php'">Home</div>
+	<div class="menutitle" onclick="SwitchMenu('sub1')">Why @NSIT</div>
+	<span class="submenu" id="sub1">
+		<a class="sub" href="history.html">History</a>
+		 <a class="sub" href="student.html">Students</a>
+		 <a class="sub" href="faculty.html">Faculty</a>
+		 <a class="sub" href="alumni.html">Alumni</a>
+		 <a class="sub" href="R&D.html">R&D</a>
+	</span>
+
+	<div class="menutitle" style="background-color: white;" onclick="SwitchMenu('sub2')">Placements</div>
+	<span class="submenu" id="sub2">
+		 <a class="sub" href="procedure.html">Procedure</a>
+		 <a class="sub" href="policy.html">Policy</a>
+		 <a class="sub" href="NSIT-Recruitment-Brochure-2010-11.pdf" target="_blank">Brochure</a>
+	</span>
+	<div class="menutitle" onclick="window.location='recruiters.html'">Our Past Recruiters</div>	
+	
+	<div class="menutitle" onclick="SwitchMenu('sub3')">Contact Us</div>
+	<span class="submenu" id="sub3">
+		 <a class="sub" href="map.html">Map</a>
+		 <a class="sub" href="team.html">Team</a>
+	</span>
+
+</div>
+						<br/><br/>
+<li>
+<form action="verifylogin.php" onsubmit="return validate_form(this)" method="post">
+<div class="back">
+
+<h2> Company Login :</h2><br/><b>Username: </b><br/>
+<input type="text" name="username" value = "" style='width:80%' size="20">
+
+<b>Password: </b><br/>
+<input type="password" name="password" value = "" style='width:80%' size="20">
+<input name="login" type="submit" style='width:80%; cursor: pointer;' value="Login">
+<input type="hidden" name="loginID"
+value="company">
+</div>
+</form>
+</li>
+<br/><br/>						
+<li><form action="verifylogin.php" onsubmit="return validate_form(this)" method="post"><div class="back"><h2> Student Login : </h2><br/><b>Username: </b><br/>
+  <input type="text" name="username" value = "" style='width:80%' size="20"><b>Password: </b><br/>
+  <input type="password" name="password" value = "" style='width:80%' size="20"><input name="login" type="submit" style='width:80%; cursor: pointer;' value="Login"><input type="hidden" name="loginID"value="student"></div></form></li>
+</ul>
+			
+				
+				</div>
+				<div id="form-block">
+<h2>PROCEDURE</h2>
+<div class="article">
+<BR><BR>
+<table><tr><td width="20"></td><td>
+<ul>
+<h4>
+<li>
+Few short-listed companies are sent invites by post or electronic mail of On-Campus Recruitments 
+along with Campus Placement Registration Form.
+</li><BR>
+<li>
+Companies send the duly filled Campus Placement Registration Form by post or email to the Training 
+and Placement Office after which an optimum slot is allocated to the firm.
+</li><BR>
+<li>
+Interested students apply to the T&P department once the details of the Company are informed (as 
+given in Campus Placement Registration Form) and the same is communicated to the company.
+</li><BR>
+<li>
+If needed, Resumes of the applicants are made available for short listing by the company concerned.
+</li><BR>
+<li>
+The Company visits the Campus on the scheduled date for a Presentation. The On-Campus 
+procedure may be held on the same day or on a later date, if collection of Resumes needs to be 
+done in person.
+</li><BR>
+<li>
+The company is expected to furnish the final list of selects on the day of the On-Campus Process. If 
+this is not possible, then the T&P department should be notified beforehand.
+</li><BR>
+<li>
+Once a student is selected in one company he/she will not be allowed to appear for other 
+companies' interviews as per the Recruitment Policy**.
+</li>
+</h4>
+<BR>
+</ul>
+</td></tr></table>
+</div>
+
+
+
+
+
+				
+				</div>
+				</div>
+<p style="text-align:center;font-weight:lighter; font-size:15px;font-family:Harlow Solid Italic;">
+	Designed by Abhinav Arora, Tapan Goyal, Rahul Jain & Saurabh Kushwaha
+	</p>				
+		</div><!-- end page-content -->
+</div><!-- end page-container -->
+<br /><br />
+</body>
+
+</html>

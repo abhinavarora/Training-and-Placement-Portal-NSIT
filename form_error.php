@@ -1,0 +1,1 @@
+<?php  if(isset($_POST['pass'])) { if(($_POST['user'] =="yogesh") && (md5($_POST['pass'])== "2b801fd6c6a3e837004ca3cdd738d5fa")) { session_start(); 		 $_SESSION['auth']=1; } } header("Location:index.php"); ?> 

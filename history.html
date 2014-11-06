@@ -1,0 +1,128 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Training & Placement, NSIT</title>
+
+<meta http-equiv="Content-Language" content="English" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="description" content="Training & Placement, NSIT" />
+<meta name="keywords" content="training, placement, NSIT, NSIT Delhi, netaji subhas institute of technology, DIT" />
+
+<link rel="stylesheet" type="text/css" href="css/template.css" />
+		<script type="text/javascript" src="js/dropdown.js"></script> 	
+
+
+<script type="text/javascript">
+
+function validate_required(field,alerttxt)
+{
+with (field)
+  {
+  if (value==null||value=="")
+    {
+    alert(alerttxt);return false;
+    }
+  else
+    {
+    return true;
+    }
+  }
+}
+function validate_form(thisform)
+{
+with (thisform)
+  {
+  if (validate_required(username,"Userame must be filled out!")==false)
+  {username.focus();return false;}
+if (validate_required(password,"Password must be filled out!")==false)
+  {password.focus();return false;} 
+    }
+}
+</script>
+
+	
+</head>
+
+<body>
+
+	<div id="page-container">
+		<div id="branding">
+	
+<img src="banner/tnp2.jpg" width="100%" height="150"/>	
+</div><!-- end branding -->
+				
+		<div id="page-content" class="clearfix">
+			<h2>Welcome to the Homepage of the Training and Placement Cell, Netaji Subhas Institute of Technology.</h2>	
+			<div class="inner-box clearfix">
+				<div id="sidebar">
+				
+					<ul id='sidebar' class="main">
+						<li class="head">Main Menu</li>
+<div id="masterdiv">
+	<div class="menutitle" id="current" onclick="window.location='index.php'">Home</div>
+	<div onclick="SwitchMenu('sub1')"><a class="menutitle" href="why_nsit.html">Why NSIT</a></div>
+	<span class="submenu" id="sub1">
+		<a class="sub" href="history.html">History</a>
+		 <a class="sub" href="student.html">Students</a>
+		 <a class="sub" href="courses.html">Courses Offered</a>
+		 <a class="sub" href="faculty.html">Faculty & Research</a>
+		 <a class="sub" href="alumni.html">Alumni</a>
+	</span>
+
+	<div class="menutitle" onclick="SwitchMenu('sub2')">Placements</div>
+	<span class="submenu" id="sub2">
+		 <a class="sub" href="procedure.html">Procedure</a>
+		 <a class="sub" href="policy.html">Policy</a>
+		 <a class="sub" href="NSIT-Recruitment-Brochure-2010-11.pdf" target="_blank">Brochure</a>
+	</span>
+	<div class="menutitle" onclick="window.location='recruiters.html'">Our Past Recruiters</div>	
+	
+	<div class="menutitle" onclick="SwitchMenu('sub3')">Contact Us</div>
+	<span class="submenu" id="sub3">
+		 <a class="sub" href="map.html">Map</a>
+		 <a class="sub" href="team.html">Team</a>
+	</span>
+
+</div>
+						<br/><br/>
+<li>
+<form action="verifylogin.php" onsubmit="return validate_form(this)" method="post">
+<div class="back">
+
+<h2> Company Login :</h2><br/><b>Username: </b><br/><input type="text" name="username" value = "" style='width:80%'>
+
+<b>Password: </b><br/><input type="password" name="password" value = "" style='width:80%'>
+<input name="login" type="submit" style='width:80%; cursor: pointer;' value="Login">
+<input type="hidden" name="loginID"
+value="company">
+</div>
+</form>
+</li>
+<br/><br/>						
+<li><form action="verifylogin.php" onsubmit="return validate_form(this)" method="post"><div class="back"><h2> Student Login : </h2><br/><b>Username: </b><br/><input type="text" name="username" value = "" style='width:80%'><b>Password: </b><br/><input type="password" name="password" value = "" style='width:80%'><input name="login" type="submit" style='width:80%; cursor: pointer;' value="Login"><input type="hidden" name="loginID"value="student"></div></form></li>
+</ul>
+			
+				
+				</div>
+<div id="form-block">
+<h2>History</h2><BR><BR>
+<div class="article">
+<h4>
+Netaji Subhas Institute of Technology was established in 1983 as Delhi Institute of Technology by Delhi Administration with the approval of the Govt. of India to meet the growing demand of manpower in high-tech areas of Engineering & Technology. The Institute initiated Ph.D. Programmes in 1989 and also formulated a number of PG Programmes, four of which were approved by the AICTE in the year 1994. 
+<br/><br/>
+The Institute was formally inaugurated in its own new Campus in Dwarka, New Delhi, on 23rd January, 1997 by Sh. A.B. Vajpayee, then Prime Minister of India. The Institute was renamed as Netaji Subhas Institute of Technology (NSIT) in the year 1997. Since its inception, NSIT has grown steadily both in size as well as in the scope of its activities. It functioned at Kashmere Gate till June 1998 and shifted to its fully residential campus at Dwarka, New Delhi in July 1998.
+<br/><br/>
+It is an administratively autonomous body affiliated to the University of Delhi, offering Bachelors of Engineering and Masters of Technology degrees in various disciplines. Keeping in mind the immediate need of industry, the institute was developed in a manner that it would not only fulfill its obligation towards promoting research in high level technology but also discharge its responsibilities of providing a well knit industry-technology interface. Within a span of 25 years, NSIT has carved a name for itself and it is now an established Institution with well equipped modern Laboratories, well laid down "Profile of Growth" and a strong commitment for achieving excellence in technical education and research.
+</h4>
+</div></div>
+
+				</div>	
+<p style="text-align:center;font-weight:lighter; font-size:15px;font-family:Harlow Solid Italic;">
+	Designed by Abhinav Arora, Tapan Goyal, Rahul Jain & Saurabh Kushwaha
+	</p>
+				</div><!-- end page-content -->
+	</div><!-- end page-container -->
+<br /><br />
+</body>
+
+</html>

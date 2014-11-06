@@ -1,0 +1,55 @@
+Name,Grade,Cut-Off,Branches-Allowed,Details
+Adobe,A++,65,COE; ECE; IT,065 % throghout the academic career(10th; 12th and B.E till 5th semester after drop)
+Maruti,A++,60,ECE; MPA,0
+Cisco,A++,60,COE; ECE; ICE;IT,20
+Cisco(M.Tech),A++,60,M.Tech(SP); M.Tech(IS),20
+Winshuttle,A++,60,COE; ECE; ICE; IT,0
+IOCL,A++,65,COE; ICE,0
+Infibeam,A++,0,COE; IT; M.Tech(IS),20
+Atrenta,A++,73,COE; ECE; ICE; IT,0
+Atrenta_MTech,A++,73,M.Tech(SP); M.Tech(IS),0
+Indian navy,A,60,COE; ECE; ICE; MPA; IT; BT,20No 'Grade' applies to Navy. Visit  http://www.nausena-bharti.nic.in/DownLoads/officer/UESE.pdf
+MakeMyTrip_SD,A++,65,COE; IT,20
+MakeMyTrip_QA,A+,65,COE; IT; ECE; ICE,20
+Directi_BE,A++,0,COE; ECE; ICE; MPA; IT; BT,100
+Directi_MTech,A++,0,M.Tech(SP); M.Tech(IS); M.Tech(PC),100
+Deloitte_BTA,A++,60,COE; ECE; ICE; IT,20
+Deloitte_SP,A++,60,COE; ECE; ICE; IT,20
+Deloitte_Mtech,A++,60,M.Tech(IS),20
+Cosmic Circuits,A++,65,ECE; ICE,0
+Texas Instruments,A++,72,COE; ECE; ICE; IT,0
+TI_M.Tech,A++,72,M.Tech(SP); M.Tech(IS),0
+BCC_COE,A++,0,COE,20
+BCC_ECE,A++,0,ECE,20
+BCC_ICE,A++,0,ICE,20
+BCC_MPA,A++,0,MPA,20
+BCC_IT,A++,0,IT,20
+BCC_BT,A++,0,BT,20
+SuccessFactors,A++,60,COE; IT,20
+SuccessFactors_MTech,A++,60,M.Tech(IS),20
+Barclays,A++,70,COE; ECE; IT,0
+MnM,A++,60,ICE; MPA,0
+The Smart Cube,A++,60,COE; ECE; ICE; MPA; IT; BT,1
+Samsung India- Software Engineering Lab,A+,0,COE; IT,20
+Samsung India- Software Engineering Lab_M Tech,A++,65,M.Tech(IS),20
+Futures First,A++,0,COE; ECE; ICE; MPA; IT; BT,20
+,,0,,
+C DOT,A++,0,COE; ECE,0
+Google Inc,A++,65,COE; IT; M.Tech(IS),0
+Army,A+,0,COE; ECE; ICE; MPA; IT; BT,5
+Grail Research,A++,65,COE; ECE; ICE; MPA; IT; BT,0
+De Shaw_BE,A++,70,COE; ECE; ICE; MPA; IT; BT,0
+De Shaw_Mtech,A++,70,M.Tech(SP); M.Tech(IS); M.Tech(PC),0
+E Value Serve_B.E.,A+,0,COE; ECE; ICE; MPA; IT; BT,20
+E Value Serve_M.Tech,A+,0,M.Tech(SP); M.Tech(IS); M.Tech(PC),20
+Nvidia,A++,70,ECE,0
+Nvidia_mtech,A++,70,M.Tech(SP),0
+Tally_B.E.,A++,70,COE; IT,0
+Tally_M.Tech,A++,70,M.Tech(IS),0
+EXL,A+,55,COE; ECE; ICE; MPA; IT; BT,20
+Yahoo,A++,65,COE; ECE; ICE; IT,0
+Yahoo_MTech,A++,65,M.Tech(IS),0
+ZS Associates_BOA,A++,0,COE; ECE; ICE; MPA; IT; BT,20
+ZS Associates_BTA,A++,0,COE; ECE; ICE; MPA; IT; BT,20
+RBS,A++,0,COE; IT,20
+RBS-M.Tech,A++,0,M.Tech(IS),20

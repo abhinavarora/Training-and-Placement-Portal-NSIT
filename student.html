@@ -1,0 +1,129 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Training & Placement, NSIT</title>
+
+<meta http-equiv="Content-Language" content="English" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="description" content="Training & Placement, NSIT" />
+<meta name="keywords" content="training, placement, NSIT, NSIT Delhi, netaji subhas institute of technology, DIT" />
+
+<link rel="stylesheet" type="text/css" href="css/template.css" />
+		<script type="text/javascript" src="js/dropdown.js"></script> 	
+
+
+<script type="text/javascript">
+
+function validate_required(field,alerttxt)
+{
+with (field)
+  {
+  if (value==null||value=="")
+    {
+    alert(alerttxt);return false;
+    }
+  else
+    {
+    return true;
+    }
+  }
+}
+function validate_form(thisform)
+{
+with (thisform)
+  {
+  if (validate_required(username,"Userame must be filled out!")==false)
+  {username.focus();return false;}
+if (validate_required(password,"Password must be filled out!")==false)
+  {password.focus();return false;} 
+    }
+}
+</script>
+
+	
+</head>
+
+<body>
+
+	<div id="page-container">
+		<div id="branding">
+	
+<img src="banner/tnp2.jpg" width="100%" height="150"/>	
+</div><!-- end branding -->
+				
+		<div id="page-content" class="clearfix">
+			<h2>Welcome to the Homepage of the Training and Placement Cell, Netaji Subhas Institute of Technology.</h2>	
+			<div class="inner-box clearfix">
+				<div id="sidebar">
+				
+					<ul id='sidebar' class="main">
+						<li class="head">Main Menu</li>
+<div id="masterdiv">
+	<div class="menutitle" id="current" onclick="window.location='index.php'">Home</div>
+	<div onclick="SwitchMenu('sub1')"><a class="menutitle" href="why_nsit.html">Why NSIT</a></div>
+	<span class="submenu" id="sub1">
+		<a class="sub" href="history.html">History</a>
+		 <a class="sub" href="student.html">Students</a>
+		 <a class="sub" href="courses.html">Courses Offered</a>
+		 <a class="sub" href="faculty.html">Faculty & Research</a>
+		 <a class="sub" href="alumni.html">Alumni</a>
+	</span>
+
+	<div class="menutitle" onclick="SwitchMenu('sub2')">Placements</div>
+	<span class="submenu" id="sub2">
+		 <a class="sub" href="procedure.html">Procedure</a>
+		 <a class="sub" href="policy.html">Policy</a>
+		 <a class="sub" href="NSIT-Recruitment-Brochure-2010-11.pdf" target="_blank">Brochure</a>
+	</span>
+	<div class="menutitle" onclick="window.location='recruiters.html'">Our Past Recruiters</div>	
+	
+	<div class="menutitle" onclick="SwitchMenu('sub3')">Contact Us</div>
+	<span class="submenu" id="sub3">
+		 <a class="sub" href="map.html">Map</a>
+		 <a class="sub" href="team.html">Team</a>
+	</span>
+
+</div>
+						<br/><br/>
+<li>
+<form action="verifylogin.php" onsubmit="return validate_form(this)" method="post">
+<div class="back">
+
+<h2> Company Login :</h2><br/><b>Username: </b><br/><input type="text" name="username" value = "" style='width:80%'>
+
+<b>Password: </b><br/><input type="password" name="password" value = "" style='width:80%'>
+<input name="login" type="submit" style='width:80%; cursor: pointer;' value="Login">
+<input type="hidden" name="loginID"
+value="company">
+</div>
+</form>
+</li>
+<br/><br/>						
+<li><form action="verifylogin.php" onsubmit="return validate_form(this)" method="post"><div class="back"><h2> Student Login : </h2><br/><b>Username: </b><br/><input type="text" name="username" value = "" style='width:80%'><b>Password: </b><br/><input type="password" name="password" value = "" style='width:80%'><input name="login" type="submit" style='width:80%; cursor: pointer;' value="Login"><input type="hidden" name="loginID"value="student"></div></form></li>
+</ul>
+			
+				
+				</div>
+<div id="form-block">
+<h2>Students</h2><BR><BR>
+<div class="article">
+<h4>
+The students at NSIT faced intense competition to get admitted to this institute. The competition only becomes tougher once you're in NSIT. Only the fittest survive, and NSIT prides itself in the great asset it possesses in some of the brightest future minds of the country.
+<br/><br/>
+NSITians have made it their habit to leave a mark where ever they go. To boast of our academic prowess, we have students with MS/MBA admissions offers from the likes of MIT, California, Georgia Institute of Technology, Michigan, Texas i.e. the top notch institutions in the world. NSITians have also been active in shouldering the social responsibility. Be it One Laptop per Child (OLPC, MIT) or making a difference in the neighbourhood, we have left no stone unturned. The latest addition to our list of achievements is the "Best Mechanical Design among Asian Teams" tag, achieved by the ATV of Team Motorsports at Mini Baja, South Africa 07.
+<br/><br/>
+But that's just a piece of the pie. Titles like BBC University Challenge, SIMAGINE Cup, Code4Bill etc. are proof enough of the all-round development NSIT offers. NSIT also boasts of internship offers from NASA and selection of students in Google Summer of Code'08. Over the past two years we have had 50 research papers from students alone and more than 150 of them from faculty, credits to research and innovative work being done at the institute. 
+'Hitting the bull's eye' is the way of life at NSIT.
+</h4>
+</div></div>
+
+				</div>	
+<p style="text-align:center;font-weight:lighter; font-size:15px;font-family:Harlow Solid Italic;">
+	Designed by Abhinav Arora, Tapan Goyal, Rahul Jain & Saurabh Kushwaha
+	</p>
+				</div><!-- end page-content -->
+	</div><!-- end page-container -->
+<br /><br />
+</body>
+
+</html>
